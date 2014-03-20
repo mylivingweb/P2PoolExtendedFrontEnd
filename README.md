@@ -22,4 +22,4 @@ Donations for [blixnood](https://github.com/blixnood/P2PoolExtendedFrontEnd)
 
 Mine Vertcoin P2Pool today!
 ====================
-* [VTCpool.net](http://vtcpool.net:9171/)
+* [VTCpool.net](http://vtcpool.net:9171/static/)
