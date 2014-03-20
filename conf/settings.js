@@ -1,2 +1,2 @@
-var siteTitle = "P2Pool Consortium Pool";
-var contactAddress = "pool-contact@emailaddy.com";
+var siteTitle = "VTCpool.net p2pool Vertcoin";
+var contactAddress = "#";
