@@ -2,6 +2,8 @@ P2PoolExtendFrontEnd
 ====================
 Extended front end web interface for P2Pool.
 
+--Updated for Vertcoin
+
 How to install
 ====================
 Put these files in the web-static folder of your P2Pool node installation or use --recursive when cloning the p2pool repo.
@@ -14,12 +16,12 @@ Edit index.html and graphs.html:
  - change the Litecoin-icon and Litecoin-large images
  - change the favicon image
 
-Donations
+Donations for Author this is forked from [blixnood](https://github.com/blixnood/P2PoolExtendedFrontEnd)
 ====================
 * LTC [LeNcnU2o9MG5acmmvZvXCRPr8wXKZWzrge](litecoin:LeNcnU2o9MG5acmmvZvXCRPr8wXKZWzrge)
 * BTC [1QAA3d7kS1vsLBSJbYerudEpRhcsHpYkYi](bitcoin:1QAA3d7kS1vsLBSJbYerudEpRhcsHpYkYi)
 * DOGE [DTb6E5KZaYysed2fwBhc66jRVG1jqwxxKG](dogecoin:DTb6E5KZaYysed2fwBhc66jRVG1jqwxxKG)
 
-Mine P2Pool today!
+Mine Vertcoin P2Pool today!
 ====================
-* [LURKMORE P2Pool](http://p2pool.lurkmore.com/)
+* [VTCpool.net](http://vtcpool.net:9171/)
