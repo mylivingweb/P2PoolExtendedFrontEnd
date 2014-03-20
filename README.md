@@ -13,10 +13,8 @@ Edit conf/settings.js:
 
 Edit index.html and graphs.html:
  - update the title and the menubar link with your pool name
- - change the Litecoin-icon and Litecoin-large images
- - change the favicon image
 
-Donations for Author this is forked from [blixnood](https://github.com/blixnood/P2PoolExtendedFrontEnd)
+Donations for [blixnood](https://github.com/blixnood/P2PoolExtendedFrontEnd)
 ====================
 * LTC [LeNcnU2o9MG5acmmvZvXCRPr8wXKZWzrge](litecoin:LeNcnU2o9MG5acmmvZvXCRPr8wXKZWzrge)
 * BTC [1QAA3d7kS1vsLBSJbYerudEpRhcsHpYkYi](bitcoin:1QAA3d7kS1vsLBSJbYerudEpRhcsHpYkYi)
