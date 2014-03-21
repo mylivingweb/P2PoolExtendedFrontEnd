@@ -46,7 +46,8 @@
 	    <li><a href="http://www.reddit.com/r/vertcoinmining">r/vertcoinmining</a></li>	
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
+      <div id="ticker"  style="display:block;float:right;color:#fff;background-color:#111;padding:10px 15px 10px 0;" ></div>
+     </div>
     </div>
   </div>
   <ul class="nav nav-tabs" id="myTab" style="margin-top:50px;">
@@ -171,5 +172,17 @@
       $('#myTab a:first').tab('show');
       fixContact();
     });
+     $(function () {
+    startRefresh();
+});
+
+function startRefresh() {
+    setTimeout(startRefresh, 10000);
+    var url = 'http://pubapi.cryptsy.com/api.php?method=singlemarketdata&marketid=151';
+    $.getJSON('http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D%22' + encodeURIComponent(url) + '%22&format=json', function (data) {
+         jQuery('#ticker').html("Currently trading at: " + data['query'].results.json.return.markets.VTC.lasttradeprice);
+		 jQuery('#ticker').append(' ' + data['query'].results.json.return.markets.VTC.secondarycode);
+    });
+}
   </script>
 </body></html>
